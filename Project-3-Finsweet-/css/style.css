@@ -1,0 +1,449 @@
+/* .Bijoy {
+    background:blue;important
+} */
+ /* common css starts here */
+a{
+      text-decoration: none;
+
+ }
+ ul,ol {
+    list-style: none;
+ }
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+ .viewpricing-button {
+      color: #ffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 40px;
+     font-family: "Poppins", sans-serif;
+     position: relative;
+     overflow: hidden;
+    
+   
+}
+.viewpricing-button i {
+    position: absolute;
+    top: 50%;
+    right: -35px;
+    transform: translate(-50%,-50%);
+     transition: .4s;
+     opacity: 0;
+}
+.viewpricing-button:hover i {
+   right: -55px;
+   opacity: 1;
+   overflow: visible;
+}
+/* comon css ends here */
+ nav {
+    background: #1C1E53;
+     padding: 20px 0px !important;
+    
+ }
+
+.tittle h2 {
+     color: rgb(40, 41, 56,1);
+    font-size: 48px;
+    font-weight: 600;
+      font-family: "Poppins", sans-serif;
+      width: 405px;
+    
+}
+.tittle p {
+    color:rgba(40, 41, 56,,0.7);
+    width: 405px;
+        font-size: 16px;
+    font-weight: 400;
+      font-family: "Poppins", sans-serif;
+      padding: 16px 0;
+   
+}
+.tittle a {
+     font-size: 18px;
+    font-weight: 500;
+      font-family: "Poppins", sans-serif;
+     
+      color: rgba(36, 5, 242,1);
+}
+.tittle .viewpricing-button {
+    margin-left: 0px;
+}
+
+
+ /* coomon css ends here */
+nav .nav-link {
+    font-size: 16px;
+    font-weight:500 ;
+    color: #BBBBCB;
+     transition: .4s;
+  font-family: "Poppins", sans-serif;
+  padding: 0px !important;
+}
+nav .nav-link:hover {
+    color: #ffff;
+}
+nav .navbar-nav {
+    column-gap: 32px;
+}
+nav .nav-button {
+    padding: 16px 48px;
+    background: transparent;
+    border: 1px solid rgba(244, 246, 252,0.20);
+    border-radius: 41px;
+    color: rgba(255, 255, 255,1);
+    font-size: 16px;
+    font-weight: 600;
+     font-family: "Poppins", sans-serif;
+     text-decoration: none;
+     display: inline-block;
+     margin-left: 48px;
+     transition: .4s;
+
+
+}
+nav .nav-button:hover {
+    background-color: #FCD980;
+    color: black;
+}
+/* /* navbar css ends here */
+/* section css starts here */
+.banner {
+    background-color: #1C1E53;
+   padding-top: 126px;
+    padding-bottom: 128px;
+}
+.banner h1 {
+    color: white;
+    font-size: 54px;
+    font-weight: 600;
+     font-family: "Poppins", sans-serif;
+     width: 582px;
+}
+.banner p {
+        color: rgba(255, 255, 255,0.7);
+    font-size: 16px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     width: 562px;
+     padding-top: 24px;
+     padding-bottom: 48px;
+     line-height: 33px;
+}
+.banner-button {
+    padding: 16px 56px;
+    background: #FCD980;
+    border: 1px solid transparent;
+    border-radius: 41px;
+    color: #1B1C2B;
+    font-size: 18px;
+    font-weight: 600;
+     font-family: "Poppins", sans-serif;
+   
+     display: inline-block;
+  
+     transition: .4s; 
+}
+.banner-button:hover {
+   border-color:#FCD980 ;
+   color: #FCD980;
+    background: transparent;
+
+}
+
+/* banner css ends here */
+/* work css starts here */
+.Work {
+    background-color: #F4F6FC;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+.work-card h4 {
+     font-size: 32px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     color: rgba(40, 41, 56,1);
+       padding-top: 16px;
+     padding-bottom: 8px;
+   
+}
+.work-card p {
+         font-size: 16px;
+    font-weight: 400;
+     font-family: "Poppins", sans-serif;
+     color: rgba(40, 41, 56,.70);
+     line-height: 28px;
+     width: 303px;
+   
+}
+
+.Work .container .Card7008{
+ row-gap: 48px;
+}
+/* work css ends here */
+/* project css starts here */
+/* .Project .container .tittle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ */.Project {
+    padding: 128px 0;
+ }
+.Project .tittle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 64px;
+}
+
+.Project .viewpricing-button {
+    overflow: visible; 
+}
+
+.Project .viewpricing-button:hover i {
+   opacity: 1;
+} 
+.Project a {
+    color: rgba(40, 41, 56,1);
+}
+.Project img:nth-child(2){
+    padding-top: 30px;
+}
+.Project .overly {
+    width: 50%;
+    height: 100%;
+   
+    position: absolute;
+    top: 0;
+    left: -50%;
+     transition: .5s;
+   background-image: linear-gradient(to bottom right, #1C1E53,rgba(28, 30, 83,0.42) );
+}
+.Project .project-card {
+    position: relative;
+    overflow: hidden;
+    
+}
+.Project img:nth-child(0) {
+    width: 100%;
+    height: 100%;
+
+}
+.Project .project-card:hover .overly {
+   
+    left: 0;
+    overflow: visible;
+  
+    padding: 312px 37px 0px 51px;
+
+
+}
+.Project .project-card h4 {
+         font-size: 24px;
+    font-weight: 600;
+     font-family: "Poppins", sans-serif;
+     color: rgba(255, 255, 255,1);
+     width: 332.76px;
+}
+.Project .project-card p {
+         font-size: 16px;
+         line-height: 28px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     color: rgba(255, 255, 255,1);
+     width: 311.5px;
+}
+.Project .project-card .overly a {
+    color: rgba(252, 217, 128,1);
+}
+.Project .container .project-card2 {
+    position: relative;
+    overflow: hidden;
+
+}
+.Project .project-card2 .overly2 {
+    width: 100%;
+    height: 0%;
+    background-image: linear-gradient(to bottom left  , #1C1E53,rgba(28, 30, 83,0.42) );
+    position: absolute;
+    transition: .4s;
+    top: 0;
+    left: 0;
+}
+.Project .project-card2:hover .overly2{
+  height: 100%;
+  overflow: visible;
+  padding-top: 129px;
+  padding-left: 58px;
+  padding-right: 36px;
+}
+.Project .project-card2 .overly2 h5 {
+         font-size: 24px;
+    font-weight: 600;
+     font-family: "Poppins", sans-serif;
+     color: rgba(255, 255, 255,1);
+}
+.Project .project-card2 .overly2 a {
+color: rgba(252, 217, 128,1);
+}
+.Project .project-card3 {
+    padding-top: 32px;
+}
+/*  */
+.Project .container .project-card3 {
+    position: relative;
+    overflow: hidden;
+
+}
+.Project .project-card3 .overly3 {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left bottom  , #1C1E53,rgba(28, 30, 83,0.42) );
+    position: absolute;
+    transition: .4s;
+    bottom: -100%;
+    left: 0;
+}
+.Project .project-card3:hover .overly3{
+  /* height: 100%; */
+  overflow: visible;
+  bottom: 0;
+ 
+}
+
+.Project .project-card3 {
+    padding-top: 32px;
+}
+/* project css ends here */
+/* features css starts here */
+.features .container h6{
+    text-align: center;
+    color: rgba(40, 41, 56,1);
+        font-size: 18px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+
+}
+.features .container  h2 {
+         font-size: 48px;
+    font-weight: 600;
+     font-family: "Poppins", sans-serif;
+      color: rgba(40, 41, 56,1);
+
+ width: 630px;
+ margin: 0 auto;
+ padding-top: 12px;
+ padding-bottom: 47px;
+
+}
+.features .container .box-card1{
+    background-color: rgba(255, 255, 255,1);
+   
+   
+   
+   
+}
+
+.features{
+    background-color:rgba(244, 246, 252,1);
+    padding-top: 35px;
+}
+.features .container .box-card1 h2 {
+         font-size: 24px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     color: rgba(40, 41, 56,1);
+     padding-bottom: 12px;
+     padding-top: 22px;
+     padding-left: 48px;
+
+}
+.features .container .box-card1 img {
+    padding-left: 48px;
+    padding-top: 58px;
+}
+.features .container .box-card1 p {
+    padding-left: 48px;
+         font-size: 24px;
+    font-weight: 400;
+     font-family: "Poppins", sans-serif;
+    
+     color: rgba(40, 41, 56,.70);
+     padding-bottom: 48px;
+     width: 324.08;
+   
+    }
+    /* features css ends here */
+    /*clients css starts here  */
+.client {
+       padding-top: 126px;
+       padding-bottom: 140px;
+    }
+.client .container h2 {
+        font-size: 36px;
+    font-weight: 600;
+     font-family: "Poppins", sans-serif;
+  
+     color: rgba(40, 41, 56,1) ;
+    
+}
+.client .container p{
+       font-size: 16px;
+    font-weight: 400;
+     font-family: "Poppins", sans-serif;
+     color: rgba(40, 41, 56,0.70);
+     width: 327px;
+}
+.client .container .Profile .profile1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center!important ;
+    column-gap: 14px;
+        margin-right: 256px;
+}
+.client .container .Profile {
+    padding-top: 76px;
+} 
+/* client css ends here  */
+/* frequnt css starts here */
+.frequent {
+    padding-top: 100px;
+    padding-left: 158px;
+    padding-right: 159px;
+    padding-bottom: 62px;
+}
+.frequent .container h4 {
+    font-size: 38px;
+    font-weight: 600;
+     font-family: "Poppins", sans-serif;
+     color: rgba(40, 41, 56,1);
+}
+.frequent .container a {
+    color: rgba(36, 5, 242,0.87);
+      font-size: 18px;
+    font-weight: 500;
+     font-family: "Poppins", sans-serif;
+     position: relative;
+     overflow: hidden;
+}
+.frequent .container a i {
+    position: absolute;
+    top: 50%;
+    left: 241px;
+ transform: translate(-50%,-50%);
+ opacity: 0;
+ transition: .5s;
+    
+}
+.frequent .container a:hover i {
+   opacity: 1;
+   overflow: visible;
+   left: 282px;
+
+}
